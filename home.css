@@ -16,11 +16,19 @@
     float:right;
 }
 
-.underline:hover underline.active{
-    border: solid black;
+li a:hover:not(.active){
     background-color: rgb(153, 146, 146);
     color: black;
     font-size: 35px;
+}
+
+.active{
+    text-decoration: none;
+    background-color: rgb(153, 146, 146);
+    color: black;
+    font-size: 35px; 
+    padding: 10px 10px;
+    float:right;
 }
 
 
