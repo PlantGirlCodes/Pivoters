@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group 3</title>
+    <title>Pivoters</title>
     <link rel="stylesheet" href="home.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const menuItems = document.querySelectorAll(".underline");
+
+    menuItems.forEach(item => {
+        item.addEventListener("click", function(event) {
+            // Remove active class from all menu items
+            menuItems.forEach(item => item.classList.remove("active"));
+
+            // Add active class to the clicked menu item
+            this.classList.add("active");
+        });
+    });
+});
+
+    </script>
 </head>
 <body>
+ <div class="header">
+<nav>
+<ul class="menu">    
+    <li><a class="underline" href="home.html">Home</a></li>
+    <li><a class="underline" href="python.html">Python</a></li>
+    <li><a class="underline" href="SQL.html">SQL</a></li>
+    <li><a class="underline" href="Github.html">Github</a></li>
+    <li><a class="underline" href="Resume.html">Resume</a></li>
+</ul>
+ </div>
+</nav>
     
 </body>
 </html>
