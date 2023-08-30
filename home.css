@@ -1,0 +1,33 @@
+.menu{
+    list-style-type: none;
+    margin: 2;
+    padding: 2;
+    overflow: hidden;
+    background-color: blanchedalmond;
+}
+
+.underline{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 10px 10px;
+    float:right;
+}
+
+li a:hover:not(.active){
+    background-color: rgb(153, 146, 146);
+    color: black;
+    font-size: 35px;
+}
+
+.active{
+    text-decoration: none;
+    background-color: rgb(153, 146, 146);
+    color: black;
+    font-size: 35px; 
+    padding: 10px 10px;
+    float:right;
+}
+
