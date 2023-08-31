@@ -1,41 +1,56 @@
+body{
+    background-color: gray;
+}
+
+.page{
+    background-color: rgba(255, 255, 255, 0.953);
+    margin: 30px;
+    padding: 50px;
+    box-shadow: 10px 10px 10px rgb(45, 45, 45);
+}
+
 h1{
     text-align: center;
 }
 
 .gridparent{
     display: grid;
-    background-color:blanchedalmond;
-    grid-template-columns: 700px 300px;
+    grid-template-columns: auto auto;
     padding:20px;
     margin: 20px;
     gap: 20px 20px;
-    border-radius: 25px;
-    box-shadow: 10px 10px rgb(45, 45, 45);
+   /* border-radius: 25px; */
 }
 
 .intro {
     background-color:rgb(152, 184, 241);
     padding: 40px;
-    border-radius: 25px;
+    border-radius: 10px;
     font-size: larger;
+}
+
+.pic{
+    background: url('https://media.istockphoto.com/id/517373542/vector/sql-structured-query-language-database-symbol-vector-illustration-concept.jpg?s=612x612&w=0&k=20&c=IUv4KZ6Y__2-VYjq2j-fNlMmtyud72L5YZSVRPV0iU0=') center center;
+    background-size: cover;
+    height:420px;
+    width:420px;
+    border-radius: 10px;
+    max-width: 100%;
 }
 
 .gridparent2{
     display: grid;
-    background-color:blanchedalmond;
     grid-template-columns: auto auto auto;
     padding:20px;
     margin: 20px;
-    border:1px solid black;
-    border-radius: 25px;
+    /*border-radius: 25px;*/
     gap: 20px 20px;
 }
 
 .gridparent2 > div {
     background-color:rgb(152, 184, 241);
-    border:1px solid black;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .gridkid1 {
@@ -59,11 +74,3 @@ h1{
     grid-column-end: 4;
 }
 
-.pic{
-    background: url('https://media.istockphoto.com/id/517373542/vector/sql-structured-query-language-database-symbol-vector-illustration-concept.jpg?s=612x612&w=0&k=20&c=IUv4KZ6Y__2-VYjq2j-fNlMmtyud72L5YZSVRPV0iU0=') center center;
-    background-size: cover;
-    height:300px;
-    width:300px;
-    border-radius: 25px;
-    max-width: 100%;
-}
