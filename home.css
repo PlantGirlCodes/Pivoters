@@ -20,6 +20,7 @@ li a:hover:not(.active){
     background-color: rgb(153, 146, 146);
     color: black;
     font-size: 35px;
+    border-radius: 25px;
 }
 
 .active{
@@ -29,5 +30,6 @@ li a:hover:not(.active){
     font-size: 35px; 
     padding: 10px 10px;
     float:right;
+    border-radius: 25px;
 }
 
