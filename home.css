@@ -1,9 +1,12 @@
 .menu{
     list-style-type: none;
-    margin: 2;
-    padding: 2;
+    margin-top: 2px;
+    padding: 2px;
     overflow: hidden;
     background-color: blanchedalmond;
+    /* position:fixed;
+    width: 100%;
+    top: 0; */
 }
 
 .underline{
@@ -17,17 +20,19 @@
 }
 
 li a:hover:not(.active){
-    background-color: rgb(153, 146, 146);
+    background-color: gray;
     color: black;
     font-size: 35px;
+    border-radius: 25px;
 }
 
 .active{
     text-decoration: none;
-    background-color: rgb(153, 146, 146);
+    background-color: gray;
     color: black;
     font-size: 35px; 
     padding: 10px 10px;
     float:right;
+    border-radius: 25px;
 }
 

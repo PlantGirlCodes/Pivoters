@@ -1,0 +1,37 @@
+li{
+  color:rgb(180, 180, 180); font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+color:rgb(5, 167, 216); font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+
+h2{
+  color:rgb(5, 216, 93); font-family: 'Open Sans', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    background-color: #044544;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+    margin: 20px;
+    gap: 20px;
+    column-gap: 30px;
+  }
+  
+  .grid-container > div {
+    background-color: rgb(1, 16, 27);
+    padding: 20px;
+    grid-template-rows: 80px 100px;
+  }
+  
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+  }
