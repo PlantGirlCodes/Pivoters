@@ -3,28 +3,28 @@ li{
 }
 
 h1{
-color:rgb(5, 167, 216); font-family: 'Open Sans', sans-serif;
-text-align: center;
+  color:rgb(5, 167, 216); font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 h2{
-  color:rgb(5, 216, 93); font-family: 'Open Sans', sans-serif;
+  color:rgb(5, 216, 174); font-family: 'Open Sans', sans-serif;
 }
 
 .grid-container {
     display: grid;
     background-color: #044544;
     grid-template-columns: auto auto auto;
-    padding: 30px;
+    padding: 20px;
     margin: 20px;
     gap: 20px;
-    column-gap: 30px;
+    column-gap: 20px;
   }
   
   .grid-container > div {
     background-color: rgb(1, 16, 27);
     padding: 20px;
-    grid-template-rows: 80px 100px;
+    grid-template-rows: 60px 200px;
   }
   
   
@@ -32,6 +32,6 @@ h2{
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
   }
