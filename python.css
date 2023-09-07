@@ -3,7 +3,7 @@
     margin: 2;
     padding: 2;
     overflow: hidden;
-    background-color: blanchedalmond;
+    background-color: rgb(224, 220, 215);
 }
 
 .underline{
@@ -46,18 +46,39 @@ header {
     position: relative;
 }
 
-nav ul {
-    list-style: none;
+
+.container {
     display: flex;
-    justify-content: center;
-    padding: 0;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    margin: 0 15px;
+.taylor {
+    width: calc(14% - 20px);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
 }
+
+.taylor:hover {
+    transform: scale(2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
 
 main {
     max-width: 1200px;
@@ -69,7 +90,8 @@ main {
 
 .history-section img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
+    width: 200px
     margin-top: 20px;
 }
 
@@ -88,6 +110,11 @@ main {
 
 .study-tips ul, .beginner-jobs ul {
     padding-left: 20px;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
 }
 
 .resources-section {
