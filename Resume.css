@@ -1,19 +1,84 @@
+.menu{
+  list-style-type: none;
+  margin: 2;
+  padding: 2;
+  overflow: hidden;
+  background-color: blanchedalmond;
+}
+
+.underline{
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 10px 10px;
+  float:right;
+}
+
+.page{
+  background-color: rgb(255, 255, 255);
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  
+}
+
 li{
-  color:rgb(180, 180, 180); font-family: 'Open Sans', sans-serif;
+  color:rgb(89, 89, 89); font-family: Arial, sans-serif;
 }
 
 h1{
-  color:rgb(5, 167, 216); font-family: 'Open Sans', sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
+  font-size: 32px;
+  color: white;
 }
 
 h2{
-  color:rgb(5, 216, 174); font-family: 'Open Sans', sans-serif;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(89, 89, 89);
 }
+
+
+h4{
+  font-family: Arial, sans-serif;
+  text-align: left;
+  font-size: 16px;
+  color: rgb(89, 89, 89);
+}
+
+header {
+  background-color: #867070;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 
 .grid-container {
     display: grid;
-    background-color: #044544;
+    background-color: #cccccc;
     grid-template-columns: auto auto auto;
     padding: 20px;
     margin: 20px;
@@ -22,16 +87,43 @@ h2{
   }
   
   .grid-container > div {
-    background-color: rgb(1, 16, 27);
+    background-color: #f5f5f5;
     padding: 20px;
     grid-template-rows: 60px 200px;
+    border-radius: 10px;
   }
   
   
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 16px;
     text-align: left;
   }
+
+  .popup-trigger {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.popup-image {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.popup-trigger:hover .popup-image {
+    display: block;
+}
+
+  footer {
+    background-color:#867070;;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
