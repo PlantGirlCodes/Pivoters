@@ -5,13 +5,13 @@ body{
     background-color: #f5f5f5;
 }
 
-header {
+/*header {
     background-color: #867070;
     color: white;
     text-align: center;
     padding: 20px;
     position: relative;
-}
+}*/
 
 .page{
     background-color: rgba(255, 255, 255, 0.953);
@@ -20,14 +20,6 @@ header {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-/*header {
-    background-color: #867070;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-}*/
 
 h1{
     text-align: center;
@@ -99,9 +91,3 @@ h1{
     grid-column-end: 4;
 }
 
-footer {
-    background-color:#867070;;
-    color: white;
-    text-align: center;
-    padding: 1px;
-}

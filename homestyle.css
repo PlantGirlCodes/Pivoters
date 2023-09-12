@@ -1,8 +1,16 @@
+header {
+    /*background-color: #86707084;
+    color: white;*/
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
 body{
     background-color: #262020;
 }
 
-h1{
+/*h1{
     color:rgb(61, 61, 61); 
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -12,9 +20,9 @@ h5{
     color:rgb(61, 61, 61); 
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-}
+}*/
 
-.page{
+/*.page{
     background-color: rgba(255, 255, 255, 0.75);
     max-width: 1200px;
     margin: 20px auto;
@@ -22,27 +30,7 @@ h5{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#background-video {
-    width: 100vw;
-    height: 100vh;
-    /*object-fit: cover;*/
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-
-header {
-    /*background-color: #86707084;
-    color: white;*/
-    text-align: center;
-    padding: 20px;
-    position: relative;
-}
-
-/*p {
+p {
     color: rgb(107, 107, 107);
     text-align: center;
     font-size: 18px;
@@ -80,7 +68,22 @@ header {
 
 .journey{
     padding-top: 80px;
+    color:rgb(61, 61, 61); 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    /*object-fit: cover;*/
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 
 .welcome{
     padding-right: 20px;
@@ -91,6 +94,11 @@ header {
     margin: 0;
 }
 
+.welcome > img{
+    height: 200px;
+    width: auto;
+}
+
 .footer {
     background-color:#867070e2;
     color: rgb(61, 61, 61);
@@ -98,4 +106,5 @@ header {
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-size: 14px;
 }

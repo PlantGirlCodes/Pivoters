@@ -1,10 +1,10 @@
-header {
+/*header {
     background-color: #867070;
     color: white;
     text-align: center;
     padding: 20px;
     position: relative;
-}
+}*/
 
 body {
     background-color: gray;
@@ -21,7 +21,7 @@ body {
     
 }
 
-h1 {
+.oneh1 {
     text-align: center;
     color: rgb(152, 184, 241);
 }
@@ -51,10 +51,10 @@ h3 {
     color: rgb(152, 184, 241);
 }
 
-footer {
+/*footer {
     background-color:#867070;
     color: white;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-}
+    padding: 1px;
+    font-size: 14px;
+}*/
