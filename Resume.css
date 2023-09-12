@@ -16,6 +16,14 @@
   float:right;
 }*/
 
+header {
+  background-color: #867070;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
 main{
   background-color: rgb(255, 255, 255);
   max-width: 1200px;
@@ -30,7 +38,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
-  
 }
 
 li{
