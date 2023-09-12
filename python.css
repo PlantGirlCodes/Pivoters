@@ -1,4 +1,4 @@
-.menu{
+/*.menu{
     list-style-type: none;
     margin: 2;
     padding: 2;
@@ -30,6 +30,7 @@ li a:hover:not(.active){
     padding: 10px 10px;
     float:right;
 }
+*/
 
 body {
     font-family: Arial, sans-serif;
@@ -62,7 +63,7 @@ header {
 }
 
 .taylor:hover {
-    transform: scale(2);
+    transform: scale(1.1);
 }
 
 h2 {
@@ -105,14 +106,15 @@ main {
 .study-tips, .beginner-jobs {
     background-color: #f5f5f5;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .study-tips ul, .beginner-jobs ul {
     padding-left: 20px;
 }
 
-.img{
+img{
     width: 50px;
     height: 50px;
 }
