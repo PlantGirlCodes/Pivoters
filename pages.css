@@ -1,0 +1,15 @@
+header {
+    background-color: #867070;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+footer {
+    background-color:#867070;;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    padding: 1px;
+    font-size: 14px;
+}

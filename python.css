@@ -120,7 +120,16 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 
+=======
+.history-section img {
+    max-width: 100%;
+    height: 300px;
+    width: 200px;
+    margin-top: 20px;
+}
+>>>>>>> c15a8c1e2a7b5471a7f88157a36d5bd6bea248ad
 
 .tips-jobs-section {
     display: grid;
