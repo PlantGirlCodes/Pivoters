@@ -38,3 +38,11 @@ h3 {
     text-align: center;
     color: rgb(152, 184, 241);
 }
+
+footer {
+    background-color:#867070;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

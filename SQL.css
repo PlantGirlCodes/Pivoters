@@ -13,12 +13,12 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-header {
+/*header {
     background-color: #867070;
     color: white;
     text-align: center;
     padding: 20px;
-    position: relative;
+    position: relative;*/
 }
 
 h1{
@@ -92,7 +92,7 @@ h1{
 }
 
 footer {
-    background-color:#867070;;
+    background-color:#867070;
     color: white;
     text-align: center;
     padding: 10px;

@@ -1,4 +1,4 @@
-.menu{
+/*.menu{
   list-style-type: none;
   margin: 2;
   padding: 2;
@@ -14,9 +14,9 @@
   text-align: center;
   padding: 10px 10px;
   float:right;
-}
+}*/
 
-.page{
+main{
   background-color: rgb(255, 255, 255);
   max-width: 1200px;
   margin: 20px auto;
@@ -37,12 +37,12 @@ li{
   color:rgb(89, 89, 89); font-family: Arial, sans-serif;
 }
 
-h1{
+/*h1{
   font-family: Arial, sans-serif;
   text-align: center;
   font-size: 32px;
   color: white;
-}
+}*/
 
 h2{
   font-family: Arial, sans-serif;
@@ -59,13 +59,13 @@ h4{
   color: rgb(89, 89, 89);
 }
 
-header {
+/*header {
   background-color: #867070;
   color: white;
   text-align: center;
   padding: 20px;
   position: relative;
-}
+}*/
 
 main {
   max-width: 1200px;
