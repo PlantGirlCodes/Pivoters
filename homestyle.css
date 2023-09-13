@@ -7,7 +7,7 @@ header {
 }
 
 body{
-    background-color: #262020;
+    background-color:  #867070;
 }
 
 /*h1{
@@ -63,7 +63,7 @@ p {
 
 .homegrid{
     display: grid;
-    grid-template-columns: 400px auto 400px;
+    grid-template-columns: auto;
 }
 
 .journey{
@@ -87,7 +87,7 @@ p {
 
 .welcome{
     padding-right: 20px;
-    color: rgb(107, 107, 107);
+    color: rgb(61, 61, 61);
     text-align: center;
     font-size: 18px;
     line-height: 1.5;
@@ -95,7 +95,7 @@ p {
 }
 
 .welcome > img{
-    height: 200px;
+    height: 100px;
     width: auto;
 }
 
