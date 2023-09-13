@@ -6,12 +6,14 @@ body {
 .one {
     background-color: antiquewhite;
     display: grid;
+    color: brown;
     
 }
 
 h1 {
     text-align: center;
-    color: rgb(152, 184, 241);
+    color: brown;
+    
 }
 
 img {
@@ -23,7 +25,8 @@ img {
     border-style: dotted;
     display: block;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto
+    ;
     width: 50%;
 
 }
