@@ -1,18 +1,30 @@
+/*header {
+    background-color: #867070;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}*/
+
 body {
-    background-color: gray;
+    background-color: #e7c0c0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
 }
 
 
 .one {
-    background-color: antiquewhite;
+    background-color: ;
     display: grid;
-    color: brown;
+    
     
 }
 
-h1 {
+.oneh1 {
     text-align: center;
-    color: brown;
+    color: #867070;
     
 }
 
@@ -40,4 +52,17 @@ h2 {
 h3 {
     text-align: center;
     color: rgb(152, 184, 241);
+}
+
+/*footer {
+    background-color:#867070;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 14px;
+}*/
+
+h1 {
+    text-align: center;
+    color: ;
 }
