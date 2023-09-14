@@ -30,7 +30,7 @@ header {
 .history-section  {
    
     margin: 0;
-    pagging: 0;
+    padding: 0;
     align-items: center;
     justify-content: center;
     background-color: dark gray;
@@ -49,11 +49,9 @@ header {
 }
 
 .taylor {
-    height: 0;
-    padding-top: 75% ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    place-items: center;
+    display:inline-block;
     font-size: 18px;
     transition: transform 0.3s ease-in-out;
     
@@ -138,7 +136,6 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 40px;
-    text-decoration: none;
 }
 
 .study-tips, .beginner-jobs {
@@ -146,11 +143,11 @@ main {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    text-decoration: none;
+    
 }
 
 .study-tips ul, .beginner-jobs ul {
-    text-decoration: none;
+    list-style-type: none;
 }
 
 img{
