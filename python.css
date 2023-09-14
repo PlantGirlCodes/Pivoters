@@ -54,7 +54,7 @@ header {
     display:inline-block;
     font-size: 18px;
     transition: transform 0.3s ease-in-out;
-    
+    padding: 20px;
 }
 
 /* first vesion of boxes for 7 era in a row*/
